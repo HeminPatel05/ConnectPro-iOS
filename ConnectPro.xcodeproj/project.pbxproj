@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		802D04542DB60B0200D019DF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 802D04532DB60B0200D019DF /* FirebaseFirestore */; };
+		802D04572DB6CD2900D019DF /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 802D04562DB6CD2900D019DF /* SDWebImageSwiftUI */; };
+		802D04D92DBA013400D019DF /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 802D04D82DBA013400D019DF /* FirebaseStorage */; };
+		802D04E42DBA9D5C00D019DF /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = 802D04E32DBA9D5C00D019DF /* Stripe */; };
+		802D04E62DBA9E4700D019DF /* StripePayments in Frameworks */ = {isa = PBXBuildFile; productRef = 802D04E52DBA9E4700D019DF /* StripePayments */; };
+		802D04E82DBA9E5000D019DF /* StripePaymentsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 802D04E72DBA9E5000D019DF /* StripePaymentsUI */; };
+		802D04EA2DBAA54500D019DF /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 802D04E92DBAA54500D019DF /* StripePaymentSheet */; };
+		8071D5F52DB07448002F5F5C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8071D5F42DB07448002F5F5C /* FirebaseAnalytics */; };
+		8071D5F82DB0745F002F5F5C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8071D5F72DB0745F002F5F5C /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8071D5DB2DB073B8002F5F5C /* ConnectPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8071D5ED2DB073BA002F5F5C /* Exceptions for "ConnectPro" folder in "ConnectPro" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8071D5DA2DB073B8002F5F5C /* ConnectPro */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8071D5DD2DB073B8002F5F5C /* ConnectPro */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8071D5ED2DB073BA002F5F5C /* Exceptions for "ConnectPro" folder in "ConnectPro" target */,
+			);
+			path = ConnectPro;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8071D5D82DB073B8002F5F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802D04572DB6CD2900D019DF /* SDWebImageSwiftUI in Frameworks */,
+				8071D5F52DB07448002F5F5C /* FirebaseAnalytics in Frameworks */,
+				8071D5F82DB0745F002F5F5C /* FirebaseAuth in Frameworks */,
+				802D04D92DBA013400D019DF /* FirebaseStorage in Frameworks */,
+				802D04542DB60B0200D019DF /* FirebaseFirestore in Frameworks */,
+				802D04E62DBA9E4700D019DF /* StripePayments in Frameworks */,
+				802D04E82DBA9E5000D019DF /* StripePaymentsUI in Frameworks */,
+				802D04EA2DBAA54500D019DF /* StripePaymentSheet in Frameworks */,
+				802D04E42DBA9D5C00D019DF /* Stripe in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8071D5D22DB073B8002F5F5C = {
+			isa = PBXGroup;
+			children = (
+				8071D5DD2DB073B8002F5F5C /* ConnectPro */,
+				8071D5F62DB0745F002F5F5C /* Frameworks */,
+				8071D5DC2DB073B8002F5F5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8071D5DC2DB073B8002F5F5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8071D5DB2DB073B8002F5F5C /* ConnectPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8071D5F62DB0745F002F5F5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8071D5DA2DB073B8002F5F5C /* ConnectPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8071D5EE2DB073BA002F5F5C /* Build configuration list for PBXNativeTarget "ConnectPro" */;
+			buildPhases = (
+				8071D5D72DB073B8002F5F5C /* Sources */,
+				8071D5D82DB073B8002F5F5C /* Frameworks */,
+				8071D5D92DB073B8002F5F5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8071D5DD2DB073B8002F5F5C /* ConnectPro */,
+			);
+			name = ConnectPro;
+			packageProductDependencies = (
+				8071D5F42DB07448002F5F5C /* FirebaseAnalytics */,
+				8071D5F72DB0745F002F5F5C /* FirebaseAuth */,
+				802D04532DB60B0200D019DF /* FirebaseFirestore */,
+				802D04562DB6CD2900D019DF /* SDWebImageSwiftUI */,
+				802D04D82DBA013400D019DF /* FirebaseStorage */,
+				802D04E32DBA9D5C00D019DF /* Stripe */,
+				802D04E52DBA9E4700D019DF /* StripePayments */,
+				802D04E72DBA9E5000D019DF /* StripePaymentsUI */,
+				802D04E92DBAA54500D019DF /* StripePaymentSheet */,
+			);
+			productName = ConnectPro;
+			productReference = 8071D5DB2DB073B8002F5F5C /* ConnectPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8071D5D32DB073B8002F5F5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8071D5DA2DB073B8002F5F5C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 8071D5D62DB073B8002F5F5C /* Build configuration list for PBXProject "ConnectPro" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8071D5D22DB073B8002F5F5C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8071D5F32DB07448002F5F5C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				802D04552DB6CD2900D019DF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				802D04E22DBA9D5C00D019DF /* XCRemoteSwiftPackageReference "stripe-ios-spm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8071D5DC2DB073B8002F5F5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8071D5DA2DB073B8002F5F5C /* ConnectPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8071D5D92DB073B8002F5F5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8071D5D72DB073B8002F5F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8071D5EF2DB073BA002F5F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGK2B63M6J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConnectPro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hemin.ConnectPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8071D5F02DB073BA002F5F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGK2B63M6J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConnectPro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hemin.ConnectPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8071D5F12DB073BA002F5F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8071D5F22DB073BA002F5F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8071D5D62DB073B8002F5F5C /* Build configuration list for PBXProject "ConnectPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8071D5F12DB073BA002F5F5C /* Debug */,
+				8071D5F22DB073BA002F5F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8071D5EE2DB073BA002F5F5C /* Build configuration list for PBXNativeTarget "ConnectPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8071D5EF2DB073BA002F5F5C /* Debug */,
+				8071D5F02DB073BA002F5F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		802D04552DB6CD2900D019DF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+		802D04E22DBA9D5C00D019DF /* XCRemoteSwiftPackageReference "stripe-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.12.0;
+			};
+		};
+		8071D5F32DB07448002F5F5C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		802D04532DB60B0200D019DF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8071D5F32DB07448002F5F5C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		802D04562DB6CD2900D019DF /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 802D04552DB6CD2900D019DF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		802D04D82DBA013400D019DF /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8071D5F32DB07448002F5F5C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		802D04E32DBA9D5C00D019DF /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 802D04E22DBA9D5C00D019DF /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = Stripe;
+		};
+		802D04E52DBA9E4700D019DF /* StripePayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 802D04E22DBA9D5C00D019DF /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePayments;
+		};
+		802D04E72DBA9E5000D019DF /* StripePaymentsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 802D04E22DBA9D5C00D019DF /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePaymentsUI;
+		};
+		802D04E92DBAA54500D019DF /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 802D04E22DBA9D5C00D019DF /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePaymentSheet;
+		};
+		8071D5F42DB07448002F5F5C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8071D5F32DB07448002F5F5C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		8071D5F72DB0745F002F5F5C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8071D5F32DB07448002F5F5C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8071D5D32DB073B8002F5F5C /* Project object */;
+}
